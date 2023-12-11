@@ -1,3 +1,5 @@
+# CubeSat Orbital Simulator
+
 Welcome to this very crude CubeSat orbital simulator! Here are a couple of things to keep in mind as you get the simulation running:
 Position is defined using spherical coordinates, where  is the distance from the center of the Earth, phi is the inclination angle (fully-defined from 0 to pi) and θ is the azimuthal angle (fully-defined from 0 to 2pi).
 Since we only want to consider circular orbits, the velocity vector magnitude will always be kept at: v = sqrt(2GM/r)
